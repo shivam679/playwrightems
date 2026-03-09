@@ -1,0 +1,13 @@
+{"url":"http://49.249.28.218:8081/TestServer/Build/Employee_Management_System/alogin.html",
+ "Valid":[{"email-id":"admin@gmail.com", "pwd":"admin"}],
+ "ValInval":[{"email-id":"admin@gmail.com", "pwd":"$dmin"},
+             {"email-id":"shi.vam@gmail.com", "pwd":"admin"}],
+ "Invalid":[{"email-id":"Shivam@gmail.com", "pwd":"amin"},
+            {"email-id":"shi..vam@gmail.com", "pwd":"a@dmin"},
+ {"email-id":"1shivam@gmail.com", "pwd":"adm$in"},
+ {"email-id":"$hivam@gmail.com", "pwd":"admin."},
+ {"email-id":"shivamgmail.com", "pwd":"admi_n"},
+ {"email-id":"shivam@.com", "pwd":"admi-n"},
+ {"email-id":"shivam@gmail", "pwd":"adminn"},
+ {"email-id":"shivam@gmail", "pwd":"admi0n"}]}
+ 
